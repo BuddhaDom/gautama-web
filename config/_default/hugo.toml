@@ -1,6 +1,6 @@
 baseURL = "http://localhost"
-copyright = "Copyright © 2021"
-title = "hugo-theme-gruvbox"
+# copyright = "Copyright Domenico Crovetto © 2025"
+title = "Hey-hey, I'm Domenico"
 #paginate = 10
 enableRobotsTXT = true
 # Enable to calculate the last modified date from Git history and show it in the post header
@@ -40,17 +40,17 @@ enableRobotsTXT = true
 [params]
   # dark or light, defaults to light. Local storage and OS preference override this param. For more details see: 
   # https://github.com/schnerring/hugo-theme-gruvbox/issues/34#issuecomment-1235870375
-  #defaultTheme = "light"
+  defaultTheme = "dark"
   # gray red green yellow blue purple aqua orange, defaults to blue
-  #themeColor = "blue"
+  themeColor = "purple"
   # soft medium hard, defaults to medium
-  #themeContrast = "medium"
-  author = "Michael Schnerring"
-  subtitle = "Theme Demo"
-  description = "A retro-looking Hugo theme inspired by gruvbox. The pastel colors are high contrast, easily distinguishable, pleasing to the eye, and feature light and dark color palettes."
+  themeContrast = "hard"
+  author = "Domenico"
+  subtitle = "Portfolio"
+  description = "Hey-hey, I'm Domenico"
 
   [params.logo]
-    text = "gruvbox"
+    text = "gautama"
     url = "/"
 
   [params.prism]
@@ -61,7 +61,8 @@ enableRobotsTXT = true
       "javascript",
       "bash",
       "diff",
-      "toml"
+      "toml",
+      "gdscript"
     ]
     plugins = [
       "normalize-whitespace",
@@ -150,11 +151,11 @@ enableRobotsTXT = true
     name = "CV"
     url = "/cv"
     weight = 20
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about"
-    weight = 30
+  # [[menu.main]]
+  #   identifier = "about"
+  #   name = "About"
+  #   url = "/about"
+  #   weight = 30
 
 [languages]
   [languages.en]
@@ -162,8 +163,8 @@ enableRobotsTXT = true
     weight = 10
     [languages.en.params.jsonResume]
       present = "present"
-  [languages.de]
-    languageName = "Deutsch"
-    weight = 20
-    [languages.de.params.jsonResume]
-      present = "heute"
+  # [languages.de]
+  #   languageName = "Deutsch"
+  #   weight = 20
+  #   [languages.de.params.jsonResume]
+  #     present = "heute"

@@ -1,5 +1,5 @@
 ---
-title: "CV"
+title: "Curriculum Vitae"
 draft: false
 type: "cv"
 ---
@@ -12,25 +12,21 @@ type: "cv"
 
 {{< json-resume "education" >}}
 
-## Volunteering
-
-{{< json-resume "volunteer" >}}
-
 ## Awards
 
 {{< json-resume "awards" >}}
 
-## Certificates
-
-{{< json-resume "certificates" >}}
-
-## Publications
-
-{{< json-resume "publications" >}}
-
 ## Skills
 
 {{< json-resume "skills" >}}
+
+## Projects
+
+{{< json-resume "projects" >}}
+
+## Volunteering
+
+{{< json-resume "volunteer" >}}
 
 ## Languages
 
@@ -39,11 +35,3 @@ type: "cv"
 ## Interests
 
 {{< json-resume "interests" >}}
-
-## References
-
-{{< json-resume "references" >}}
-
-## Projects
-
-{{< json-resume "projects" >}}
