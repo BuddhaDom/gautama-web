@@ -55,13 +55,7 @@ enableRobotsTXT = true
 
   [params.prism]
     languages = [
-      "markup",
-      "css",
-      "clike",
-      "javascript",
       "bash",
-      "diff",
-      "toml",
       "gdscript"
     ]
     plugins = [

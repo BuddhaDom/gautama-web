@@ -87,3 +87,190 @@
   --primary: var(--{{ $themeColor }}1);
   --primary-alt: var(--{{ $themeColor }}2);
 }
+
+
+/* Typefaces */
+/* Add them manually because they break otherwise. */
+
+/* roboto-slab-100normal - latin */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100;
+  src:
+    local('Roboto Slab Thin '),
+    local('Roboto Slab-Thin'),
+    url('{{ $.Site.BaseURL }}/fonts/roboto-slab-latin-100.woff2') format('woff2'), /* Super Modern Browsers */
+    url('{{ $.Site.BaseURL }}/fonts/roboto-slab-latin-100.woff') format('woff'); /* Modern Browsers */
+}
+
+/* roboto-slab-200normal - latin */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200;
+  src:
+    local('Roboto Slab Extra Light '),
+    local('Roboto Slab-Extra Light'),
+    url('{{ $.Site.BaseURL }}/fonts/roboto-slab-latin-200.woff2') format('woff2'), /* Super Modern Browsers */
+    url('{{ $.Site.BaseURL }}/fonts/roboto-slab-latin-200.woff') format('woff'); /* Modern Browsers */
+}
+
+/* roboto-slab-300normal - latin */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  src:
+    local('Roboto Slab Light '),
+    local('Roboto Slab-Light'),
+    url('{{ $.Site.BaseURL }}/fonts/roboto-slab-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+    url('{{ $.Site.BaseURL }}/fonts/roboto-slab-latin-300.woff') format('woff'); /* Modern Browsers */
+}
+
+/* roboto-slab-400normal - latin */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src:
+    local('Roboto Slab Regular '),
+    local('Roboto Slab-Regular'),
+    url('{{ $.Site.BaseURL }}/fonts/roboto-slab-latin-400.woff2') format('woff2'), /* Super Modern Browsers */
+    url('{{ $.Site.BaseURL }}/fonts/roboto-slab-latin-400.woff') format('woff'); /* Modern Browsers */
+}
+
+/* roboto-slab-500normal - latin */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src:
+    local('Roboto Slab Medium '),
+    local('Roboto Slab-Medium'),
+    url('{{ $.Site.BaseURL }}/fonts/roboto-slab-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+    url('{{ $.Site.BaseURL }}/fonts/roboto-slab-latin-500.woff') format('woff'); /* Modern Browsers */
+}
+
+/* roboto-slab-600normal - latin */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src:
+    local('Roboto Slab SemiBold '),
+    local('Roboto Slab-SemiBold'),
+    url('{{ $.Site.BaseURL }}/fonts/roboto-slab-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+    url('{{ $.Site.BaseURL }}/fonts/roboto-slab-latin-600.woff') format('woff'); /* Modern Browsers */
+}
+
+/* roboto-slab-700normal - latin */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src:
+    local('Roboto Slab Bold '),
+    local('Roboto Slab-Bold'),
+    url('{{ $.Site.BaseURL }}/fonts/roboto-slab-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+    url('{{ $.Site.BaseURL }}/fonts/roboto-slab-latin-700.woff') format('woff'); /* Modern Browsers */
+}
+
+/* roboto-slab-800normal - latin */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
+  src:
+    local('Roboto Slab ExtraBold '),
+    local('Roboto Slab-ExtraBold'),
+    url('{{ $.Site.BaseURL }}/fonts/roboto-slab-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+    url('{{ $.Site.BaseURL }}/fonts/roboto-slab-latin-800.woff') format('woff'); /* Modern Browsers */
+}
+
+/* roboto-slab-900normal - latin */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src:
+    local('Roboto Slab Black '),
+    local('Roboto Slab-Black'),
+    url('{{ $.Site.BaseURL }}/fonts/roboto-slab-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+    url('{{ $.Site.BaseURL }}/fonts/roboto-slab-latin-900.woff') format('woff'); /* Modern Browsers */
+}
+
+/* fira-code-300normal - latin */
+@font-face {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  src:
+    local('Fira Code Light '),
+    local('Fira Code-Light'),
+    url('{{ $.Site.BaseURL }}/fonts/fira-code-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+    url('{{ $.Site.BaseURL }}/fonts/fira-code-latin-300.woff') format('woff'); /* Modern Browsers */
+}
+
+/* fira-code-400normal - latin */
+@font-face {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src:
+    local('Fira Code Regular '),
+    local('Fira Code-Regular'),
+    url('{{ $.Site.BaseURL }}/fonts/fira-code-latin-400.woff2') format('woff2'), /* Super Modern Browsers */
+    url('{{ $.Site.BaseURL }}/fonts/fira-code-latin-400.woff') format('woff'); /* Modern Browsers */
+}
+
+/* fira-code-500normal - latin */
+@font-face {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src:
+    local('Fira Code Medium '),
+    local('Fira Code-Medium'),
+    url('{{ $.Site.BaseURL }}/fonts/fira-code-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+    url('{{ $.Site.BaseURL }}/fonts/fira-code-latin-500.woff') format('woff'); /* Modern Browsers */
+}
+
+/* fira-code-600normal - latin */
+@font-face {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src:
+    local('Fira Code SemiBold '),
+    local('Fira Code-SemiBold'),
+    url('{{ $.Site.BaseURL }}/fonts/fira-code-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+    url('{{ $.Site.BaseURL }}/fonts/fira-code-latin-600.woff') format('woff'); /* Modern Browsers */
+}
+
+/* fira-code-700normal - latin */
+@font-face {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src:
+    local('Fira Code Bold '),
+    local('Fira Code-Bold'),
+    url('{{ $.Site.BaseURL }}/fonts/fira-code-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+    url('{{ $.Site.BaseURL }}/fonts/fira-code-latin-700.woff') format('woff'); /* Modern Browsers */
+}
+
