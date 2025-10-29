@@ -5,9 +5,9 @@
 
 /*! purgecss start ignore */
 
-/* Typefaces */
+/* Typefaces (Moved to "./99-gautama.css")
 @import "typeface-roboto-slab";
-@import "typeface-fira-code";
+@import "typeface-fira-code"; */
 
 /* Normalize */
 @import "normalize.css/normalize.css";
