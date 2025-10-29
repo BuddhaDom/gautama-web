@@ -8,9 +8,8 @@ cover:
   src: "cover.png"
   caption: "Cinematic screenshot of ESSOMENIC."
 date: "2025-04-01"
+tagline: "Extrasomnic intervention."
 ---
-
-# "Extrasomnic intervention."
 
 We're developing an indie game called
 [**ESSOMENIC**](https://store.steampowered.com/app/4057180/ESSOMENIC/) with
@@ -37,11 +36,9 @@ project, as well as pitch deck presenter.
 Here's a set of noteworthy developments that I have contributed in for
 ESSOMENIC.
 
-#### The Display
+### The Display
 
-<center>
 {{< video src="captures/display.mp4" autoplay="false" controls="true" loop="true" >}}
-</center>
 
 The DREAMCATCHER is our collection of primary modules. It's where the players'
 patients are hooked onto, and it's where the bulk of surgery gameplay and
@@ -92,7 +89,7 @@ pointing to in the simulation, with a 3D raycast.
   </code>
 </pre>
 
-#### Snapviews
+### Snapviews
 
 ![Snapview component on the DREAMCATCHER](captures/snapview.png)
 
@@ -110,7 +107,7 @@ controller, and instead move into a locked-position view, with a specific FOV
 and angle. This makes it so that, essentially, the 3D world environment changes
 into a UI environment.
 
-#### Second-order Dynamic Component
+### Second-order Dynamic Component
 
 I developed a second-order dynamic script based off of this video for procedural
 animation.
@@ -179,16 +176,12 @@ Here's a snippet of the final implementation.
 
 We have a Steam store page ready for the game.
 
-<center>
 <iframe src="https://store.steampowered.com/widget/4057180/" frameborder="0" width="646" height="190"></iframe>
-</center>
 
 We also have a very early Itch.io demo available, which is heavily subject to
 change.
 
-<center>
-<iframe frameborder="0" src="https://itch.io/embed/3760246?border_width=5&amp;bg_color=4c566a&amp;fg_color=d8dee9&amp;link_color=b48ead&amp;border_color=292e39" width="560" height="175"><a href="https://brygdinteractive.itch.io/essomenic">ESSOMENIC by BRYGD Interactive</a></iframe>
-</center>
+{{< itch 3760246 >}}
 
 We were nominated for the 2025 Swedish Game Awards' Best Outside the Box
 category.
@@ -200,6 +193,4 @@ ESSOMENIC is a game born from our game jam —
 It is a game about performing surgery on patient's memories, navigating them and
 requisitioning items with high emotional impact.
 
-<center>
 {{< youtube P_Tb7V4T_MQ >}}
-</center>

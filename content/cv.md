@@ -16,13 +16,13 @@ type: "cv"
 
 {{< json-resume "awards" >}}
 
-## Skills
-
-{{< json-resume "skills" >}}
-
 ## Projects
 
 {{< json-resume "projects" >}}
+
+## Skills
+
+{{< json-resume "skills" >}}
 
 ## Volunteering
 

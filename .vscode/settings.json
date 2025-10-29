@@ -11,5 +11,9 @@
   },
   "emmet.includeLanguages": {
     "postcss": "css"
+  },
+  "markdownlint.config": {
+    "single-title": false,
+    "no-inline-html": false
   }
 }

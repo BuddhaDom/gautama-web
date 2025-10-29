@@ -8,9 +8,8 @@ cover:
   src: "cover.png"
   caption: "Detective Jackal's office."
 date: "2024-11-05"
+tagline: "Whodunit? Nah, howdunit."
 ---
-
-# "Whodunit? Nah, _howdunit_."
 
 [_Paradox Clue_](https://edneedsbread.itch.io/paradox-clue) is a game developed
 for the 2024
@@ -30,19 +29,7 @@ constantly cause paradoxes to occur where you might have reached a place before
 you even opened the door to that location, which was part of the almost
 deliriant spirit that we strived to achieve.
 
-<center>
-<iframe frameborder="0" src="https://itch.io/embed/3056327?border_width=5&amp;bg_color=4c566a&amp;fg_color=d8dee9&amp;link_color=b48ead&amp;border_color=292e39" width="560" height="175"><a href="https://edneedsbread.itch.io/paradox-clue">Paradox Clue by Ed, Rykk1n, Buddha, Martijn, DevLope, surui003</a></iframe>
-</center>
-
-## The Setting
-
-Paradox Clue is a game about an investigation into the strange disappearance of
-_The Starry Night_.
-
-Set in 1940s Blackmord, detective Jackal is on the hunt for The Hound, prime
-suspect to the investigation, and his perpetual tormentor. Think like a culprit
-would, and swap shoes between these two characters to find out how exactly did
-he get away with such bold a crime.
+{{< itch 3056327 >}}
 
 ## Contributions
 
@@ -54,9 +41,7 @@ trigger a transition between the two. I worked on swapping components to make
 the transition between modes possible, and also gave them good looking
 transitions for when specific things happen.
 
-<center>
 {{< video src="captures/swap.mp4" autoplay="false" controls="true" loop="false" >}}
-</center>
 
 ### Graphics
 
@@ -70,9 +55,7 @@ player. That way, while these characters were motionless, they still felt like
 they had some manner of life to them, with eyes that followed you around in the
 scene.
 
-<center>
 {{< video src="captures/billboard.mp4" autoplay="false" controls="true" loop="true" >}}
-</center>
 
 The Hound, however, sees people as nothing more than obstacles. They're danger
 where they stand, and must be avoided at all costs. I worked on a shader that
@@ -82,13 +65,9 @@ reckoned, and avoided. While humans do catch you red-handed, animals don't care
 for the Hound's presence, and remain unbothered. So while they share the same
 shader properties, its a much calmer view for them.
 
-<center>
 {{< video src="captures/point.mp4" autoplay="false" controls="true" loop="true" >}}
-</center>
 
-<center>
 {{< video src="captures/cat.mp4" autoplay="false" controls="true" loop="true" >}}
-</center>
 
 ### Narrative
 

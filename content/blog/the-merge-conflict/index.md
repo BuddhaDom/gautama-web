@@ -8,9 +8,8 @@ cover:
   src: "cover.png"
   caption: "Hub area of the game."
 date: "2025-02-01"
+tagline: "Rollback spacetime."
 ---
-
-# "Rollback spacetime."
 
 We worked on this game as a group of three for the _Open Project in Interaction
 Design_ course at Gothenburg University over the course of 8 weeks. For this
@@ -21,6 +20,9 @@ stationary portals as a means of attaining
 
 Developed with **Unity** version 2022.3.21f1.
 
+Based on
+[_Portal Rendering and Creation Interactions in Virtual Reality_](https://ieeexplore.ieee.org/document/9995211).
+
 <!--more-->
 
 The entirety of the game, amassing to 1-2 hours of gameplay, takes place in a
@@ -30,24 +32,11 @@ players rarely felt cramped. Even more surprising, they reported a really good
 sense of direction. Even if the virtual space was impossible, it was easy to
 navigate and find your way around.
 
-Based on
-[_Portal Rendering and Creation Interactions in Virtual Reality_](https://ieeexplore.ieee.org/document/9995211).
+{{< itch 3212817 >}}
 
 {{< video src="captures/pagoda.mp4" autoplay="false" controls="true" loop="true" >}}
 
-# Setting
-
-The player is an Intern Developer in the company in charge of maintaining
-imperative reality. Including but not limited to laws of physics, spacetime,
-scale, perception, and so on. Unfortunately, someone else in the company has
-pushed a broken build onto production, which has caused large scale problems.
-Namely, time, scale, and perception are completely broken. Lucky for the company
-and for you, however, you happened to have a working build available on your
-system, which means you're the only person currently holding a tangible form.
-This means it is up to you to manually roll back changes in hopes to reestablish
-stable reality.
-
-# The Game
+## The Game
 
 The game is meant to be an escape room. Our sense of interpretation of this
 notion was that the player was, indeed, trapped in an impossible space, and that
@@ -57,11 +46,9 @@ have three separate "branches" each with a particular theme, and have these be
 three challenges that they'd be required to complete in order to proceed in
 their search. This would also allow us to better separate work as a team.
 
-## Perspective
+### Perspective
 
-<center>
 {{< video src="captures/perspective_walkthrough.mp4" autoplay="false" controls="true" loop="true" >}}
-</center>
 
 This is the branch I worked on. I wanted to play around with viewing angles to
 solve puzzles, so I made a lot of the level design dependent on viewing objects
@@ -78,7 +65,7 @@ static portals to show several environments at once.
 
 ![Picture7](captures/Picture7.png)
 
-## Time
+### Time
 
 {{< video src="captures/time_walkthrough.mp4" autoplay="false" controls="true" loop="true" >}}
 
@@ -92,7 +79,7 @@ corners away.
 
 ![Picture16](captures/Picture16.png)
 
-## Scale
+### Scale
 
 {{< video src="captures/scale_walkthrough.mp4" autoplay="false" controls="true" loop="true" >}}
 
@@ -107,4 +94,16 @@ containing the key, which is accessible as a normal sized person as well.
 
 ![Picture14](captures/Picture14.png)
 
-![Picture13](captures/Picture13.png)
+![Picture13](captures/Picture13.png) W
+
+## Setting
+
+The player is an Intern Developer in the company in charge of maintaining
+imperative reality. Including but not limited to laws of physics, spacetime,
+scale, perception, and so on. Unfortunately, someone else in the company has
+pushed a broken build onto production, which has caused large scale problems.
+Namely, time, scale, and perception are completely broken. Lucky for the company
+and for you, however, you happened to have a working build available on your
+system, which means you're the only person currently holding a tangible form.
+This means it is up to you to manually roll back changes in hopes to reestablish
+stable reality.

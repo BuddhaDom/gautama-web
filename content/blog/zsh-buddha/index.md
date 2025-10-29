@@ -5,26 +5,27 @@ comments: false
 socialShare: true
 toc: false
 cover:
-    src: "cover.png"
-    caption: "Example ZSH command line with zsh-buddha installed."
+  src: "cover.png"
+  caption: "Example ZSH command line with zsh-buddha installed."
+tagline: "Eyes on what's important."
 ---
 
-# "Eyes on what's important."
-
-A simple, readability-focused ZSH theme for use with [OhMyZsh](https://github.com/ohmyzsh/ohmyzsh). [Github](https://github.com/BuddhaDom/zsh-buddha)
+A simple, readability-focused ZSH theme for use with
+[OhMyZsh](https://github.com/ohmyzsh/ohmyzsh).
+[Github](https://github.com/BuddhaDom/zsh-buddha)
 
 <!--more-->
 
-## Features 
+## Features
 
-* Working directory highlights for **readability**.
-* Blocky structure for "contained" commands.
-* Notches for git interactions.
-* Best enjoyed using [Nord](https://www.nordtheme.com/) colors!
+- Working directory highlights for **readability**.
+- Blocky structure for "contained" commands.
+- Notches for git interactions.
+- Best enjoyed using [Nord](https://www.nordtheme.com/) colors!
 
 ## Prerequisites
 
-* [OhMyZSH](https://github.com/ohmyzsh/ohmyzsh)
+- [OhMyZSH](https://github.com/ohmyzsh/ohmyzsh)
 
 ## Installation
 
@@ -38,6 +39,3 @@ A simple, readability-focused ZSH theme for use with [OhMyZsh](https://github.co
     omz reload
   </code>
 </pre>
-    
-
-

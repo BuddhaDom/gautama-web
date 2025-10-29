@@ -8,9 +8,8 @@ cover:
   src: "cover.png"
   caption: "DESYNCHROLIFE, a playable demo developed in the Kintsugi engine."
 date: "2025-10-26"
+tagline: "An engine twice born."
 ---
-
-# "An engine twice born."
 
 We developed a custom game engine as part of our
 [Game Engine Architecture course at the University of Gothenburg](https://www.gu.se/en/study-gothenburg/game-engine-architecture-dit572).
@@ -25,17 +24,14 @@ The engine was developed in **.NET C#** and makes use of
 
 We published a couple demo games developed in the Kintsugi Engine in Itch.io.
 
-<center>
-<iframe frameborder="0" src="https://itch.io/embed/2758159?border_width=5&amp;bg_color=4c566a&amp;fg_color=d8dee9&amp;link_color=b48ead&amp;border_color=292e39" width="552" height="167"><a href="https://edneedsbread.itch.io/synchronecronomicon">Synchronecronomicous &amp; Desynchrolife by Ed, Buddha, BitiLope</a></iframe>
-</center>
+{{< itch 2758159 >}}
 
 ## My contributions
 
 ### Documentation
 
-> <center>
-> <a href="https://gautama.casa/kintsugi/"><span style="font-size: 30px">Access the documentation here.</span></a>
-> </center>
+> <a href="https://gautama.casa/kintsugi/"><span style="font-size: 30px">Access
+> the documentation here.</span></a>
 
 I love good docs.
 
@@ -46,14 +42,13 @@ for the engine.
 
 ![Kintsugi documentation landing page](captures/docs.png)
 
-> "How dare you make documentation out of my implementation too." -_Our
-> examiner, in jest._
+> "How dare you make documentation out of my implementation too."
+>
+> -_Our examiner, in jest._
 
 ### Tweening
 
-<center>
 {{< video src="captures/tween.mp4" autoplay="false" controls="true" loop="true" >}}
-</center>
 
 We implemented a sprite movement interpolation system supporting ourselves with
 the [TweenSharp NuGet package](https://www.nuget.org/packages/TweenSharp). It

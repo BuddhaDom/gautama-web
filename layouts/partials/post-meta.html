@@ -29,4 +29,8 @@
     {{ $lazy := ge .pageIndex 2 }}
     {{ partial "image.html" (dict "src" .page.Params.cover.src "alt" .page.Params.cover.alt "caption" .page.Params.cover.caption "page" .page "lazy" $lazy) }}
   {{ end }}
+
+  {{ if .page.Params.tagline }}
+    <h3 style="border-bottom:none">"{{ .page.Params.tagline }}"</h3>
+  {{ end }}
 </div>
