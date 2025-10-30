@@ -32,6 +32,7 @@ A simple, readability-focused ZSH theme for use with
 1. Download the theme.
 2. Select this theme.
 3. Done! Reload your shell.
+
 <pre class="command-line language-bash" data-user="user" data-host="host">
   <code>
     git clone --quiet https://github.com/BuddhaDom/zsh-buddha ~/.oh-my-zsh/custom/themes/buddha

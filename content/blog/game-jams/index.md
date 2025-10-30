@@ -51,7 +51,7 @@ itself, and you'll lose contact with the past.
 |  Role  |               Narrative; Game Design; Voice acting                |
 | Result |                 Runner up in Fun and Game Design                  |
 
-![](https://img.itch.zone/aW1hZ2UvMzE2MTEyMy8xODkwNjgxNS5wbmc=/original/JSg6Xa.png)
+![Lords of the Wood's Land](https://img.itch.zone/aW1hZ2UvMzE2MTEyMy8xODkwNjgxNS5wbmc=/original/JSg6Xa.png)
 
 {{< itch 3161123 >}}
 
