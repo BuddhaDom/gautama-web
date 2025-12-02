@@ -46,13 +46,14 @@
     "normalize.css": "^8.0.1",
     "prism-themes": "^1.9.0",
     "prismjs": "^1.30.0",
-    "simple-icons": "^15.18.0",
+    "simple-icons": "^15.22.0",
     "typeface-fira-code": "^1.1.13",
     "typeface-roboto-slab": "^1.1.13"
   },
   "description": "A retro-looking Hugo theme inspired by gruvbox. The pastel colors are high contrast, easily distinguishable, pleasing to the eye, and feature light and dark color palettes.",
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^7.0.2",
+    "autoprefixer": "^10.4.22",
     "cssnano": "^7.1.1",
     "eslint": "^9.36.0",
     "eslint-config-prettier": "^10.1.8",
